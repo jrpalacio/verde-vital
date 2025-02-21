@@ -1,0 +1,53 @@
+---
+import Section from '../components/Section.astro';
+import Header from '../components/Header.astro';
+import CW from '../copywritte/cw.json';
+import Cards from '../components/Cards.astro';
+
+---
+<Section>
+  <header>
+    <h2>
+      Descubre el poder del CBD: <strong>bienestar, equilibrio y vitalidad en tu día a día</strong>
+    </h2>
+    <p>
+      Libérate del estrés, duerme mejor y equilibra tu cuerpo de forma natural con Happy Live. <strong>Siente la diferencia desde el primer día.</strong>
+    </p>
+  </header>
+</Section>
+<Cards cards={CW.Benefits.list} />
+<style>
+  h2 {
+    color: #212121;
+    text-align: center;
+    strong {
+      color: #3DBE52;
+      font-weight: bold;
+    }
+  }
+  p {
+    font-size: 1.16rem;
+    line-height: 1.4;
+    text-align: center;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(1fr, 1fr));
+    gap: 1rem;
+
+  }
+  li {
+    border: 1px solid #212121;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: 0;
+  }
+  .parrafo {
+    font-size: 1.16rem;
+    line-height: 1.4;
+    text-align: left;
+  }
+</style>
