@@ -1,0 +1,42 @@
+---
+import Section from '../components/Section.astro';
+import Header from '../components/Header.astro';
+import CW from '../copywritte/cw.json';
+---
+<Section>
+  <header>
+    <h1>
+      ✨ Recupera el equilibrio y el bienestar de forma natural
+    </h1>
+    <p>
+      <strong>Descubre el poder del CBD en alimentos nutracéuticos</strong> y ayuda a tu cuerpo a relajarse, reducir el estrés y mejorar tu bienestar sin aditivos artificiales. 
+      <strong>Cuida tu salud de manera natural y siente la diferencia.</strong>
+    </p>
+  </header>
+  <a href={CW.Hero.cta.link}>{CW.Hero.cta.text}</a>
+</Section>
+
+<style>
+  h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #3DBE52;
+  }
+  p {
+    font-size: 1.16rem;
+    line-height: 1.4;
+    text-align: center;
+  }
+  a {
+    padding:0.8rem 1rem ;
+    background-color: #212121;
+    color: white;
+    border-radius: 2rem;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    text-align: center;
+  }
+</style>
