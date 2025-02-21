@@ -6,31 +6,45 @@ import Questions from '../content/qa/questions.json'
   <header>
     <h2>Preguntas frecuentes</h2>
   </header>
-  <ul>
+  <div class="questions">
     {
       Questions.cbd.map(question => (
-        <li>
-          <h3>{question.pregunta}</h3>
-          <p class="parrafo">{question.persuasion}</p>
-        </li>
+      <details name="question" >
+            <summary>{question.pregunta}</summary>
+            <p>{question.persuasion}</p>
+      </details>
       ))
     }
-  </ul>
+  </div>
 </Section>
 
 <style>
-  ul {
+  .questions{
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
-    margin: 0;
-    padding: 0;
+    gap: .5rem;
   }
-  li {
+  details{
     border: 1px solid #212121;
-    padding: 0.1rem 1rem;
-    border-radius: 1rem;
-    margin: 0;
-    list-style: none;
+    padding: 1rem;
+    border-radius: 0.4rem;
+  }
+  details:hover{
+    background-color: #212121;
+    color: #3DBE52;
+  }
+
+  details[open]{
+      padding: 0.5em;
+      background-color: #64eb7a4f;
+  }
+  summary{
+      font-weight: 600;
+      
+      padding: 0.5em;
+      cursor: pointer;
+  }
+  details[open] summary{
+      margin-bottom: 0.5em;
   }
 </style>
