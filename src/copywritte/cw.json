@@ -1,0 +1,65 @@
+{
+  "Hero": {
+    "title": "✨ Recupera el equilibrio y el bienestar de forma natural",
+    "description": "Descubre el poder del CBD en alimentos nutracéuticos y ayuda a tu cuerpo a relajarse, reducir el estrés y mejorar tu bienestar sin aditivos artificiales. Cuida tu salud de manera natural y siente la diferencia.",
+    "cta": {
+      "text": "Adquiere nuestros productos",
+      "link": "https://www.happylive.com/es/productos/alimentos-nutricion-naturales"
+    }
+  },
+  "Benefits": { 
+    "title": "Descubre el poder del CBD: bienestar, equilibrio y vitalidad en tu día a día",
+    "description": "Libérate del estrés, duerme mejor y equilibra tu cuerpo de forma natural con Happy Live. Siente la diferencia desde el primer día.",
+    "list":[
+      {
+        "name":"Relajación",
+        "description": "Desconéctate del estrés y recupera tu calma interior de forma natural."
+      },
+      {
+        "name":"Bienestar",
+        "description":"Siente más energía y armonía en tu cuerpo cada día."
+      },
+      {
+        "name":"Salud Natural",
+        "description": "Productos 100% naturales, sin químicos ni aditivos artificiales."
+      },
+      {
+        "name":"Descanso Reparador",
+        "description": "Duerme profundamente y despierta con vitalidad renovada."
+      },
+      {
+        "name":"Alivio del Dolor",
+        "description": "Reduce molestias musculares y articulares sin efectos secundarios."
+      },
+      {
+        "name":"Refuerzo Inmunológico",
+        "description": "Fortalece tus defensas y protege tu bienestar."
+      }
+    ],
+    "cta": {
+      "text": "Enpieza tu transformación hoy",
+      "link": "https://www.happylive.com/es/productos/alimentos-nutricion-naturales"
+    }
+  },
+  "SocialProof": {
+    "title": "Con la confianza de los consumidores",
+    "list": [
+      {
+        "username": "@johndoe",
+        "text": "¡Estoy muy contento con mi nueva dieta! ¡Me ha gustado!"
+      },
+      {
+        "username": "@janedoe",
+        "text": "¡Estoy muy contento con mi nueva dieta! ¡Me ha gustado!"
+      },
+      {
+        "username": "@pepe",
+        "text": "¡Estoy muy contento con mi nueva dieta! ¡Me ha gustado!"
+      }
+    ]
+  },
+  "AboutUs": {
+    "title": "Mi historia con el CBD: de la crisis al bienestar",
+    "history": "Happy Live es una empresa dedicada a ayudar a las personas a cuidar su salud y bienestar de manera natural. Somos un equipo de expertos en nutrición, alimentos y dietética, que nos comprometemos a proporcionarle la mejor experiencia de vida posible."
+  }
+}
