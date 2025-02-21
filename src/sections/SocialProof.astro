@@ -1,0 +1,39 @@
+---
+import Section from '../components/Section.astro';
+import Header from '../components/Header.astro';
+import CW from '../copywritte/cw.json';
+---
+<Section>
+  <header>
+    <h2>
+      Con la confianza de los <strong>consumidores</strong>
+    </h2>
+  </header>
+</Section>
+<section class="content--proofs">
+  {
+    CW.SocialProof.list.map((item) => (
+      <div class="proof">
+        <h3>{item.username}</h3> 
+        <p>{item.text}</p>
+      </div>
+    ))
+  }
+</section>
+
+<style>
+  strong{
+    color: #3DBE52;
+  }
+  .content--proofs {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+    gap: 1rem;
+  }
+  .proof{
+    text-align: center;
+  }
+</style>
