@@ -3,7 +3,7 @@ import Section from '../components/Section.astro';
 import Header from '../components/Header.astro';
 import CW from '../copywritte/cw.json';
 ---
-<Section>
+<section>
   <header>
     <h1>
       ✨ Recupera el equilibrio y el bienestar de forma natural
@@ -14,9 +14,22 @@ import CW from '../copywritte/cw.json';
     </p>
   </header>
   <a href={CW.Hero.cta.link}>{CW.Hero.cta.text}</a>
-</Section>
+</section>
 
 <style>
+  section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    background-image: url('../assets/bg-cbd.webp');
+    background-size: cover;
+    height: 100dvb;
+    width: 100dvw;
+    
+  }
+
   h1 {
     font-size: 2rem;
     font-weight: bold;
